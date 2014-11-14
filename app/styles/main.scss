@@ -1,0 +1,206 @@
+// bower:scss
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Silo styles */
+
+.book-text p {
+    font-size: 150%;
+    line-height: 130%;
+    text-align: justify;
+}
+
+.menu.menu-left,
+.menu.menu-right {
+    background: #444;
+}
+
+.menu .scroll-content {
+    background: #444;
+}
+
+.menu .item {
+    background: #444;
+    color: #fff;
+    border: none;
+}
+
+.menu .item.active {
+    background: #222;
+}
+
+/** CONTENT **/
+.scroll-content ul {
+}
+
+.scroll-content li {
+    padding: 6px 0px 6px 20px;
+    background-image: url(../assets/img/btn_arrow_dark.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+/** BOOK STYLES **/
+
+.dark-content h1,
+.dark-content h2,
+.dark-content h3,
+.dark-content {
+    background-color: #333;
+    color: #eee;
+}
+
+.book-text.xsmall h1,
+.book-text.xsmall h2,
+.book-text.xsmall h3 {
+    font-size: 1.6em;
+}
+
+.book-text.xsmall {
+    font-size: 0.6em;
+}
+
+.book-text.small h1,
+.book-text.small h2,
+.book-text.small h3 {
+    font-size: 1.8em;
+}
+
+.book-text.small {
+    font-size: 0.8em;
+}
+
+.book-text.normal h1,
+.book-text.normal h2,
+.book-text.normal h3 {
+    font-size: 2.0em;
+}
+
+.book-text.normal {
+    font-size: 1em;
+}
+
+.book-text.large h1,
+.book-text.large h2,
+.book-text.large h3 {
+    font-size: 2.2em;
+}
+
+.book-text.large {
+    font-size: 1.2em;
+}
+
+.book-text.xlarge h1,
+.book-text.xlarge h2,
+.book-text.xlarge h3 {
+    font-size: 2.4em;
+}
+
+.book-text.xlarge {
+    font-size: 1.4em;
+}
+
+/* my styles */
+
+ion-header-bar.bar-energized.bar.bar-header.disable-user-behavior {
+  background-color: #ec7b08;
+}
+
+
+
+/* ST styles */
+
+
+
+
+
+
+
+

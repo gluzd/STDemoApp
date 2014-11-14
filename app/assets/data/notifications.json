@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "type": "1",
+        "lang": "en",
+        "title": "From: Adam Jones,Test",
+        "description": "",
+        "img": "",
+        "file": "message1"
+    },
+    {
+        "id": "2",
+        "type": "1",
+        "lang": "es",
+        "title": "From: Jennifer Page,Test. Say Hi",
+        "description": "",
+        "img": "",
+        "file": "message2"
+    },
+    {
+        "id": "3",
+        "type": "1",
+        "lang": "fr",
+        "title": "From: Jennifer Page,Test",
+        "description": "",
+        "img": "",
+        "file": "message3"
+    },
+    {
+        "id": "4",
+        "type": "1",
+        "lang": "it",
+        "title": "From: OrgAdam Test OA,test",
+        "description": "",
+        "img": "",
+        "file": "message4"
+    }
+]

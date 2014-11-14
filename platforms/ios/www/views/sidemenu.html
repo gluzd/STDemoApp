@@ -1,0 +1,37 @@
+<ion-content  has-header="false" ng-controller="AppController">
+    <ion-list>
+        <a ng-click="goToPage('home')" class="item item-icon-left" href="">
+            <i class="icon ion-home"></i>
+            {{ 'home' }}
+        </a>
+        <a ng-click="goToPage('about')" class="item item-icon-left" href="">
+            <i class="icon ion-ios7-information"></i>
+            {{ 'about'  }} myself
+        </a>
+        <a ng-click="goToPage('books')" class="item item-icon-left" href="">
+            <i class="icon ion-folder"></i>
+            {{ 'Notifications' }}
+        </a>
+        <a ng-click="goToPage('media')" class="item item-icon-left" href="">
+            <i class="icon ion-images"></i>
+            Choose a Team to Check In
+        </a>
+        <a ng-click="goToPage('places')" class="item item-icon-left" href="">
+            <i class="icon ion-ios7-pulse-strong"></i>
+            ST Tools
+        </a>
+        <div class="item-divider">
+            &nbsp;
+        </div>
+        <!--
+        <a ng-click="goToPage('options')" class="item item-icon-left" href="">
+            <i class="icon ion-gear-a"></i>
+            {{ 'options'  }}
+        </a>
+        -->
+        <a ng-click="goToPage('credits')" class="item item-icon-left" href="">
+            <i class="icon ion-ios7-help-outline"></i>
+            {{ 'credits' }}
+        </a>
+    </ion-list>
+</ion-content>
