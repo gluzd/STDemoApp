@@ -78,3 +78,7 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+#phonegap
+platforms/ios/CordovaLib/build
+platforms/ios/build
