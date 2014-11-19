@@ -344,7 +344,8 @@ module.exports = function (grunt) {
             'fonts/{,*/}*.*',
             'config.xml',
             'res/**/*',
-            'assets/**/*'
+            'assets/**/*',
+            'App_Distribute.mobileprovision'
           ]
         }, {
           expand: true,

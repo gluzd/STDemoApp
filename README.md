@@ -15,6 +15,7 @@ npm install -g ios-sim
 ```
 
 (for iOS simulator run)
+
 Android SDK Environment for android run https://developer.android.com/sdk/index.html
 
 Build:
@@ -36,3 +37,5 @@ Run in Android emulator or device:
 ```bash
 phonegap run android
 ```
+
+Intel XDK build system integrated:
